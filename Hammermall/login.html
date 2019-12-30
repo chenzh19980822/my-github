@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh" ng-app="accountApp" class="ng-scope">
+<head>
+	<style type="text/css">
+		@charset "UTF-8";
+		[ng\:cloak],
+		[ng-cloak],
+		[data-ng-cloak],
+		[x-ng-cloak],
+		.ng-cloak,
+		.x-ng-cloak,
+		.ng-hide {
+			display: none !important;
+		}
+		ng\:form {
+			display: block;
+		}
+		.ng-animate-block-transitions {
+			transition: 0s all !important;
+			-webkit-transition: 0s all !important;
+		}
+		.ng-hide-add-active,
+		.ng-hide-remove {
+			display: block !important;
+		}
+	</style>
+	<meta charset="utf-8">
+	<meta name="keywords" content="锤子科技, 智能手机, 用户体验">
+	<meta name="description" content="锤子科技是一家制造移动互联网终端设备的公司，公司的使命是用完美主义的工匠精神，打造用户体验一流的数码消费类产品（智能手机为主），改善人们的生活质量。">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title ng-bind="$root.title + ' - 锤子科技'" class="ng-binding">用户登录 - 锤子科技</title>
+	<link href="//static.smartisanos.cn/common/img/favicon.ico" rel="shortcut icon">
+	<link href="//static.smartisanos.cn/common/img/favicon_114.png" rel="apple-touch-icon">
+	<link href="//static.smartisanos.cn/common/img/favicon_76.png" sizes="76x76" rel="apple-touch-icon">
+	<link href="//static.smartisanos.cn/common/img/favicon_120.png" sizes="120x120" rel="apple-touch-icon">
+	<link href="//static.smartisanos.cn/common/img/favicon_152.png" sizes="152x152" rel="apple-touch-icon">
+	<link rel="stylesheet" href="//static.smartisanos.cn/account.common/css/main_1666763a09.css">
+</head>
+
+<body class="v2 login-v2" ng-class="pageClass" style="">
+	<div class="wrapper ng-scope" ng-controller="MainCtrl"
+		ng-class="{ 'cloud': isEmbedCloud, 'bbs': isEmbedBbs, 'bbs-tmp': isEmbedBbsTmp, 'settings': isSettings, 'guest': isGuestLogin, 'avatar': isModifyAvatar, 'notes': isEmbedNotes, 'contacts': isEmbedContacts, 'radar': isEmbedRadar, 'four-1': is1111}">
+		<div class="dialog dialog-shadow" style="display: block; margin-top: -324px;">
+			<div class="title" ng-class="loginLogoClass">
+				<div ng-show="is1111" class="return-btn ng-hide" ng-click="backToLast()"></div>
+				<h4 ng-bind="dialogTitle" class="ng-binding">使用 Smartisan ID 登录官网</h4>
+				<a class="close"></a>
+			</div>
+			<!-- ngView:  -->
+			<div class="content ng-scope ng-animate" ng-view="" ng-animate-children="" style="height: auto;">
+				<form class="login-form form-v2 ng-scope ng-pristine ng-invalid ng-invalid-required" name="form"
+					novalidate="" autocomplete="off">
+					<ul class="common-form">
+						<!-- ngIf: showCcc -->
+						<li class="username border-1p">
+							<div class="input" i-animation="errAnimation.username" style="opacity: 0.618;"><span
+									class="icon"><i>手机号/邮箱</i></span>
+								<!-- ngIf: showCcc --><label for="username" class="placeholder ng-binding"
+									ng-class="{'indent': showCcc}"></label> <input type="text" name="username" id="tel"
+									aria-labelledby="u-required u-format-error u-not-exist" autocomplete="username"
+									ng-model="user.username" required="" i-input="" i-focus="" i-username=""
+									i-auto-focus="" i-response="" ng-class="{'indent': showCcc}"
+									class="ng-pristine ng-invalid ng-invalid-required ng-valid-name-valid"> <span
+									id="u-required" aria-live="assertive" class="warning ng-binding"
+									i-warning="form.username.$submitted &amp;&amp; form.username.$error.required">请输入手机号/邮箱</span>
+								<span id="u-format-error" aria-live="assertive" class="warning ng-binding"
+									i-warning="form.username.$blurred &amp;&amp; form.username.$error.username">手机号/邮箱格式错误</span>
+								<span id="u-not-exist" aria-live="assertive" class="warning ng-binding"
+									i-warning="form.username.$blurred &amp;&amp; form.username.$error.nameValid">手机号/邮箱不存在</span>
+							</div>
+						</li>
+						<li class="password">
+							<div class="input" i-animation="errAnimation.password"><span
+									class="icon"><i>密码</i></span><label for="password" class="placeholder"></label>
+								<input type="password" id="password" name="password"
+									aria-labelledby="p-required p-error" autocomplete="current-password"
+									ng-model="user.password" required="" ng-trim="false" i-input="" i-focus=""
+									i-enter="login()" i-response="" select-on="focus.password"
+									class="ng-pristine ng-invalid ng-invalid-required ng-valid-password-valid"> <span
+									class="m-eye"></span> <span id="p-required" aria-live="assertive" class="warning"
+									i-warning="form.password.$submitted &amp;&amp; form.password.$error.required">请输入密码</span>
+								<span id="p-error" aria-live="assertive" class="warning"
+									i-warning="form.password.$submitted &amp;&amp; form.password.$error.passwordValid">密码错误</span>
+							</div>
+						</li>
+						<!-- ngIf: captchaNeeded -->
+						<li class="remember" ng-class="{'notes': isEmbedNotes}">
+							<!-- ngIf: !isMiniprogram -->
+							<div class="auto ng-binding ng-scope" ng-click="remembered = !remembered"
+								ng-if="!isMiniprogram"><span role="checkbox" aria-checked="true"
+									class="checkbox checked" ng-class="{'checked' : remembered}"><a></a></span> 自动登录
+							</div>
+							<!-- end ngIf: !isMiniprogram -->
+							<a class="forgotpassword ng-binding" ng-click="forgotPassword()">忘记密码？</a>
+							<a class="registercloud ng-binding" href="http://www.pzy.com/register.html">注册 Smartisan
+								ID</a>
+						</li>
+					</ul>
+					<div class="btn-wrapper">
+						<div class="btn btn-primary" id="log" ng-class="{'disabled':form.$invalid}" ng-click="login()">
+							<a role="button">登录</a>
+						</div>
+					</div>
+					<div class="info-wrapper clearfix">
+						<ul>
+							<li>
+								<!-- ngIf: !isMiniprogram -->
+								<ul class="login-three ng-scope" ng-if="!isMiniprogram">
+									<li class="text">其他账号登录：</li>
+									<li role="button" class="wechat" ng-click="wechatLogin()"></li>
+									<li role="button" class="weibo" ng-click="weiboLogin()"></li>
+									<li role="button" class="qq" ng-click="qqLogin()"></li>
+									<li role="button" class="alipay" ng-click="alipayLogin()"></li>
+								</ul>
+								<!-- end ngIf: !isMiniprogram -->
+							</li>
+							<li>
+								<a role="button" ng-click="switchModel()" class="ng-binding">国际手机号登录 <span
+										class="smartisan-icon gt"></span></a>
+							</li>
+						</ul>
+					</div>
+					<div class="info-wrapper ng-hide" ng-show="is1111">
+						<span>提示：为了确保账户的安全性，维护您的福袋兑换权益，请输入您的用户名和密码，点击【登录】即可兑换福袋。</span></div>
+				</form>
+				<!-- ngIf: showCcc -->
+			</div>
+		</div>
+		<div class="loading" style="display: none;"></div>
+		<div class="copyright">
+			<div class="clearfix">
+				<h2>Copyright © <span copyright-year="">2017</span>, Smartisan Digital Co., Ltd. All Rights Reserved.
+				</h2>
+				<h3 class="company">北京锤子数码科技有限公司</h3>
+				<ul class="privacy">
+					<li>
+						<a href="http://www.smartisan.com/support/#/agreement">法律声明</a>
+					</li>
+					<li>
+						<a href="http://www.smartisan.com/support/#/privacy">隐私条款</a>
+					</li>
+				</ul>
+			</div>
+			<h4><a href="http://www.miibeian.gov.cn/"
+					target="_blank"><span>京ICP备14041720号-1</span><span>京ICP证140622号</span><span>京公网安备11010502025474</span></a>
+			</h4>
+		</div>
+	</div>
+	<div class="m-dialog">
+		<div class="m-dialog-backdrop"></div>
+		<div class="m-dialog-modal">
+			<div class="m-dialog-content">
+				<div class="m-dialog-header"><span class="close" data-dismiss="true">×</span>
+					<h4 class="m-dialog-headline"></h4>
+				</div>
+				<div class="m-dialog-body"></div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/login.js"></script>

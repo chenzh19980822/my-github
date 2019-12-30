@@ -1,0 +1,1690 @@
+.center .home_floors > .title > .floors-page > a:last-child::before {
+  display: inline-block;
+  position: absolute;
+  left: -18px;
+  top: 50%;
+  width: 3px;
+  height: 3px;
+  background: #bebebe;
+  content: "";
+}
+
+.banner .ban > .right {
+  top: 0;
+  right: 0;
+  float: right;
+  position: absolute;
+}
+
+.banner .ban > .right .user {
+  position: absolute;
+  float: left;
+  display: block;
+  width: 20px;
+  height: 20px;
+  right: 50px;
+  margin-top: 14px;
+  background: url("https://static.smartisanos.cn/index/assets/images/avatar-and-cart.c2634628597594cf0fdab831abe6499d.png") no-repeat 1px 2px;
+  background-size: 180%;
+  margin-right: 21px;
+}
+
+.banner .ban > .right .user:hover {
+  background-position: -17px 2px;
+}
+
+.banner .ban > .right .user:hover ~ .user_hie {
+  display: block;
+}
+
+.banner .ban > .right .shopcar {
+  position: absolute;
+  float: left;
+  display: block;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  background: url("https://static.smartisanos.cn/index/assets/images/avatar-and-cart.c2634628597594cf0fdab831abe6499d.png") no-repeat 1px -17px;
+  background-size: 180%;
+  margin-top: 14px;
+  margin-right: 21px;
+}
+
+.banner .ban > .right .shopcar:hover {
+  background-position: -17px -17px;
+}
+
+.banner .ban > .right .shopcar:hover ~ .con_shop {
+  display: block;
+}
+
+.banner .ban > .right .con_use {
+  display: none;
+  position: relative;
+  top: 27.5px;
+  right: 25px;
+  padding-top: 20px;
+}
+
+.banner .ban > .right .con_use .user_hie {
+  z-index: 10;
+  position: relative;
+  width: 170px;
+  height: 380px;
+  background: white;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.banner .ban > .right .con_use .user_hie .uh_head {
+  padding-top: 10px;
+}
+
+.banner .ban > .right .con_use .user_hie .uh_head i {
+  width: 46px;
+  height: 46px;
+  font-size: 46px;
+  display: block;
+}
+
+.banner .ban > .right .con_use .user_hie .uh_head .phoneNum {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner .ban > .right .con_use .user_hie li:hover {
+  background: #fafafa;
+}
+
+.banner .ban > .right .con_use .user_hie ul > li > a {
+  display: block;
+  text-decoration: none;
+  color: #616161;
+  height: 45px;
+  border-top: 1px solid #f5f5f5;
+  text-align: center;
+  line-height: 45px;
+  position: relative;
+}
+
+.banner .ban > .right .con_use .user_hie ul > li > a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  background: url("https://static.smartisanos.cn/index/assets/images/account-icon.32d87deb02b3d1c3cc5bcff0c26314ac.png") no-repeat 0;
+}
+
+.banner .ban > .right .con_shop {
+  display: none;
+  position: relative;
+  right: 30px;
+  top: 23px;
+  top: 27.5px;
+  padding-top: 20px;
+  z-index: 10;
+}
+
+.banner .ban > .right .con_shop .shop {
+  height: 300px;
+  width: 380px;
+  background: white url("https://static.smartisanos.cn/index/assets/images/cart-empty.01f4c99a9df22275a7d374be0195adc7.png") no-repeat 50% 95px;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.banner .ban > .right .con_shop .shop .move {
+  position: relative;
+  top: 60%;
+}
+
+.banner .ban > .right .con_shop .shop .first {
+  font-size: 18px;
+  text-align: center;
+}
+
+.banner .ban > .right .con_shop .shop .secd {
+  font-size: 12px;
+  text-align: center;
+  color: #bcbcbc;
+}
+
+.center .home-hot-shop > .con-ul > ul > li:hover, .center .home_floors > .con-ul > ul > li:hover, .center .home-box > .con-a > a:hover, .center .floot-box > .con-a > a:hover, .center .lt > .con-lt > .text-image:hover, .center .yy li .ophide:hover {
+  box-shadow: inset 0 0 38px rgba(0, 0, 0, 0.08);
+  transition: all .15s ease;
+}
+
+.center .home-hot-shop, .center .home_floors, .center .lt, .center .yy {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  margin-top: 25px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
+}
+
+.center .home-hot-shop > .title, .center .home_floors > .title, .center .lt > .title, .center .yy > .title {
+  position: relative;
+  background: #fafafa;
+  height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.center .home-hot-shop > .title > .title-name, .center .home_floors > .title > .title-name, .center .lt > .title > .title-name, .center .yy > .title > .title-name {
+  line-height: 60px;
+  margin-left: 25px;
+  color: #666;
+  font-size: 18px;
+}
+
+.center .home-hot-shop > .con-ul > ul, .center .home_floors > .con-ul > ul {
+  width: 2440px;
+  position: relative;
+  overflow: hidden;
+}
+
+.center .home-hot-shop > .con-ul > ul > li, .center .home_floors > .con-ul > ul > li {
+  width: 305px;
+  height: 429px;
+  float: left;
+  cursor: pointer;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item, .center .home_floors > .con-ul > ul > li > .box-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  border-radius: initial;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item > .com-img > img, .center .home_floors > .con-ul > ul > li > .box-item > .com-img > img {
+  display: block;
+  margin: 0 auto;
+  padding: 45px 0 20px;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item > .com-img > h4, .center .home_floors > .con-ul > ul > li > .box-item > .com-img > h4 {
+  font-size: 14px;
+  color: #333;
+  font-weight: 700;
+  margin: 0 8px;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item > .com-img > h6, .center .home_floors > .con-ul > ul > li > .box-item > .com-img > h6 {
+  padding-top: 15px;
+  font-size: 12px;
+  color: #999;
+  font-weight: 400;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item > .com-img .h6_block, .center .home_floors > .con-ul > ul > li > .box-item > .com-img .h6_block {
+  display: block;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item > .com-img .h6_hover, .center .home_floors > .con-ul > ul > li > .box-item > .com-img .h6_hover {
+  display: none;
+  color: #e04e4e;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .ul-color, .center .home_floors > .con-ul > ul > li > .box-item .ul-color {
+  margin-top: 15px;
+  text-align: center;
+  height: 14px;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .ul-color > ul, .center .home_floors > .con-ul > ul > li > .box-item .ul-color > ul {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .ul-color > ul > li, .center .home_floors > .con-ul > ul > li > .box-item .ul-color > ul > li {
+  float: left;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .ul-color > ul > li > .col, .center .home_floors > .con-ul > ul > li > .box-item .ul-color > ul > li > .col {
+  margin: 0;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+  padding: 2px;
+  transition: all .15s ease-out;
+  box-sizing: border-box;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .ul-color > ul > li > .col > img, .center .home_floors > .con-ul > ul > li > .box-item .ul-color > ul > li > .col > img {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: block;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .ul-color > ul > .li-active, .center .home_floors > .con-ul > ul > li > .box-item .ul-color > ul > .li-active {
+  outline: none;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .ul-color > ul > .li-active > div, .center .home_floors > .con-ul > ul > li > .box-item .ul-color > ul > .li-active > div {
+  box-shadow: inset 0 0 0 1px #b2b2b2;
+  border-color: #b2b2b2;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .money, .center .home_floors > .con-ul > ul > li > .box-item .money {
+  display: block;
+  font-size: 0;
+  font-family: Arial;
+  color: #d44d44;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
+  transition: all .1s ease-out;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .money > span, .center .home_floors > .con-ul > ul > li > .box-item .money > span {
+  font-size: 18px;
+  padding-left: 4px;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .con_but, .center .home_floors > .con-ul > ul > li > .box-item .con_but {
+  margin-top: 20px;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item .con_but > button, .center .home_floors > .con-ul > ul > li > .box-item .con_but > button {
+  display: none;
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+  outline: none;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #e1e1e1;
+  font-size: 12px;
+  color: #646464;
+  background: #f9f9f9;
+}
+
+.center .home-hot-shop > .con-ul > ul > li > .box-item > span, .center .home_floors > .con-ul > ul > li > .box-item > span {
+  display: block;
+  color: #d03b34;
+  background: #ffe7e5;
+  border-color: #f3938b;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  border: 1px solid #e6e6e6;
+  border-radius: 13px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.head {
+  background: #222325;
+  position: relative;
+  height: 45px;
+  z-index: 30;
+}
+
+.head > .left {
+  float: left;
+  margin-left: 21px;
+  margin-top: 14px;
+}
+
+.head > .left .left-a {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  background: url("https://static.smartisanos.cn/index/assets/images/logo.557a1159a7b50cad819b869ebbe5051a.png");
+  background-size: 100%;
+}
+
+.head > .con {
+  width: 1220px;
+  margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
+  width: 1220px;
+}
+
+.head > .con > ul {
+  float: right;
+  line-height: 28px;
+  margin: 1px 181px 0 0;
+}
+
+.head > .con > ul > li:first-child a {
+  font-weight: bold;
+  color: white;
+}
+
+.head > .con > ul > li {
+  float: left;
+}
+
+.head > .con > ul > li > a {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  margin: 0 20px;
+  color: #c3c3c4;
+  font-size: 12px;
+}
+
+.head > .con > ul > li > a:hover {
+  text-decoration: none;
+}
+
+.head > .right {
+  top: 0;
+  right: 0;
+  float: right;
+  position: absolute;
+}
+
+.head > .right .user {
+  position: absolute;
+  float: left;
+  display: block;
+  width: 20px;
+  height: 20px;
+  right: 50px;
+  margin-top: 14px;
+  background: url("https://static.smartisanos.cn/index/assets/images/avatar-and-cart.c2634628597594cf0fdab831abe6499d.png") no-repeat 1px 2px;
+  background-size: 180%;
+  margin-right: 21px;
+}
+
+.head > .right .user:hover {
+  background-position: -17px 2px;
+}
+
+.head > .right .user:hover ~ .user_hie {
+  display: block;
+}
+
+.head > .right .shopcar {
+  position: absolute;
+  float: left;
+  display: block;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  background: url("https://static.smartisanos.cn/index/assets/images/avatar-and-cart.c2634628597594cf0fdab831abe6499d.png") no-repeat 1px -17px;
+  background-size: 180%;
+  margin-top: 14px;
+  margin-right: 21px;
+}
+
+.head > .right .shopcar:hover {
+  background-position: -17px -17px;
+}
+
+.head > .right .shopcar:hover ~ .con_shop {
+  display: block;
+}
+
+.head > .right .con_use {
+  display: none;
+  position: relative;
+  top: 27.5px;
+  right: 25px;
+  padding-top: 20px;
+}
+
+.head > .right .con_use .user_hie {
+  z-index: 10;
+  position: relative;
+  width: 170px;
+  height: 380px;
+  background: white;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.head > .right .con_use .user_hie .uh_head {
+  padding-top: 10px;
+}
+
+.head > .right .con_use .user_hie .uh_head i {
+  width: 46px;
+  height: 46px;
+  font-size: 46px;
+  display: block;
+}
+
+.head > .right .con_use .user_hie .uh_head .phoneNum {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.head > .right .con_use .user_hie li:hover {
+  background: #fafafa;
+}
+
+.head > .right .con_use .user_hie ul > li > a {
+  display: block;
+  text-decoration: none;
+  color: #616161;
+  height: 45px;
+  border-top: 1px solid #f5f5f5;
+  text-align: center;
+  line-height: 45px;
+  position: relative;
+}
+
+.head > .right .con_use .user_hie ul > li > a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  background: url("https://static.smartisanos.cn/index/assets/images/account-icon.32d87deb02b3d1c3cc5bcff0c26314ac.png") no-repeat 0;
+}
+
+.head > .right .con_shop {
+  display: none;
+  position: relative;
+  right: 30px;
+  top: 23px;
+  top: 27.5px;
+  padding-top: 20px;
+  z-index: 10;
+}
+
+.head > .right .con_shop .shop {
+  height: 300px;
+  width: 380px;
+  background: white url("https://static.smartisanos.cn/index/assets/images/cart-empty.01f4c99a9df22275a7d374be0195adc7.png") no-repeat 50% 95px;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.head > .right .con_shop .shop .move {
+  position: relative;
+  top: 60%;
+}
+
+.head > .right .con_shop .shop .first {
+  font-size: 18px;
+  text-align: center;
+}
+
+.head > .right .con_shop .shop .secd {
+  font-size: 12px;
+  text-align: center;
+  color: #bcbcbc;
+}
+
+.ban_con .goodlist {
+  display: none;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
+  height: 0;
+  width: 100%;
+  position: absolute;
+  top: 13px;
+  left: 0;
+}
+
+.ban_con .goodlist > .container {
+  width: 1200px;
+}
+
+.ban_con .goodlist > .container > ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ban_con .goodlist > .container > ul > li {
+  width: 234px;
+  height: 296px;
+  padding: 0 40px;
+  float: left;
+}
+
+.ban_con .goodlist > .container > ul > li > a {
+  padding-top: 40px;
+  display: block;
+  text-align: center;
+}
+
+.ban_con .goodlist > .container > ul > li > a > .phname {
+  padding-top: 10px;
+  font-size: 12px;
+  color: #616161;
+}
+
+.ban_con .goodlist > .container > ul > li > a > .phpice {
+  margin-top: -5px;
+  font-size: 14px;
+  color: #d44d44;
+}
+
+.ban_con .goodlist > .container > ul > li > a:hover {
+  text-decoration: none;
+}
+
+.ban_con .goodlist > .container > ul > li > a > img {
+  width: 160px;
+  height: 160px;
+}
+
+.ban_con .goodlist > .container > ul > li:not(:last-child) > a {
+  position: relative;
+}
+
+.ban_con .goodlist > .container > ul > li:not(:last-child) > a::after {
+  content: "";
+  width: 1px;
+  background: #ebebeb;
+  position: absolute;
+  top: 51px;
+  bottom: 8px;
+  right: -40px;
+}
+
+.banner {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #e1e1e1;
+  background: #fff;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  position: absolute;
+  width: 100%;
+  top: 45px;
+  z-index: 5;
+}
+
+.banner > .row {
+  margin: 0 auto;
+}
+
+.banner .ban {
+  width: 1220px;
+  height: 28px;
+  padding: 0;
+}
+
+.banner .ban > ul {
+  float: left;
+  height: 28px;
+  line-height: 28px;
+}
+
+.banner .ban > ul > li {
+  float: left;
+}
+
+.banner .ban > ul > li > a {
+  display: block;
+  padding: 0 15px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.banner .ban > ul > li > a:hover {
+  color: #5079d9;
+}
+
+.banner .ban .ban-right {
+  position: relative;
+  float: right;
+}
+
+.banner .ban .ban-right .seach {
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-image: url("https://static.smartisanos.cn/index/assets/images/magnify@2x.1e45d9b9d95da09794d7708b1349cb6e.png");
+  position: absolute;
+  top: 7px;
+  left: 12px;
+}
+
+.banner .ban .ban-right > input {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 6px 0 rgba(0, 0, 0, 0.05);
+  outline: none;
+  width: 396px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-left: 35px;
+}
+
+.banner .ban .ban-right > input:focus ~ .blue, .banner .ban .ban-right > input:focus ~ .green {
+  display: none;
+}
+
+.banner .ban .ban-right > input:focus ~ .hot_word {
+  display: block;
+}
+
+.banner .ban .ban-right > a {
+  position: absolute;
+  color: #3965cc;
+  border: 1px solid #93b2f7;
+  background: #e5efff;
+  display: inline-block;
+  margin-right: 7px;
+  text-decoration: none;
+  border-radius: 10px;
+  height: 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.banner .ban .ban-right .blue {
+  top: 6px;
+  left: 135px;
+  color: #3965cc;
+  border: 1px solid #93b2f7;
+  background: #e5efff;
+}
+
+.banner .ban .ban-right .green {
+  top: 6px;
+  right: 0;
+  color: #8aad37;
+  border: 1px solid rgba(138, 173, 55, 0.6);
+  background: #f7fae1;
+}
+
+.banner .ban .ban-right .hot_word {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 57px;
+}
+
+.banner .ban .ban-right .hot_word > ul {
+  width: 396px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 30px 75px 0 rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.banner .ban .ban-right .hot_word > ul > li {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.banner .ban .ban-right .hot_word > ul > li:hover {
+  color: #5079d9;
+  font-weight: bold;
+}
+
+.banner .ban .ban-right .hot_word > ul > li:first-child {
+  padding-top: 20px;
+}
+
+.banner .ban .ban-right .hot_word > ul::before {
+  top: -19px;
+  left: 34px;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #cfcfcf transparent;
+}
+
+.banner .ban .ban-right .hot_word > ul::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #fff transparent;
+  top: -18px;
+  left: 34px;
+}
+
+.banner .ban > .right {
+  position: relative;
+  margin-top: -10px;
+  right: -46px;
+}
+
+.banner .ban > .right .user_hie::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #cfcfcf transparent;
+  top: -21px;
+  left: 105px;
+}
+
+.banner .ban > .right .user_hie::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #fff transparent;
+  top: -20px;
+  left: 105px;
+}
+
+.banner .ban > .right .con_use {
+  position: absolute;
+}
+
+.banner .ban > .right .con_shop {
+  position: absolute;
+  right: -15px;
+}
+
+.banner .ban > .right .shop::before, .banner .ban > .right .shop-has::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #cfcfcf transparent;
+  top: 1px;
+  right: 45px;
+}
+
+.banner .ban > .right .shop::after, .banner .ban > .right .shop-has::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #fff transparent;
+  top: 2px;
+  right: 45px;
+}
+
+.banner .ban > .right .user {
+  background: url("https://static.smartisanos.cn/index/assets/images/profilephoto.8bafeea9522156520e36033ca3319217.png") no-repeat 1px 2px;
+  background-size: 100%;
+}
+
+.banner .ban > .right .user:hover {
+  background-position: 1px 2px;
+}
+
+.banner .ban > .right .shopcar {
+  background: url("https://static.smartisanos.cn/index/assets/images/carticon.d57833ca24ea1e7eabfe5448faccf904.png") no-repeat 1px 1px;
+  background-size: 100%;
+}
+
+.banner .ban > .right .shopcar:hover {
+  background-position: 1px 1px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  background: #fafafa;
+  width: 100%;
+}
+
+.bottom > .qa {
+  width: 1220px;
+  margin: auto;
+}
+
+.bottom > .qa > .row {
+  width: 1220px;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom > .qa > .row:first-child {
+  padding: 60px 0 55px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.bottom > .qa > .row:first-child > ul:first-child {
+  float: left;
+}
+
+.bottom > .qa > .row:first-child > ul:first-child > li {
+  float: left;
+  margin-right: 90px;
+}
+
+.bottom > .qa > .row:first-child > ul:first-child > li > h3 {
+  padding: 0 0 20px;
+  font-size: 12px;
+  color: #646464;
+  font-weight: bold;
+}
+
+.bottom > .qa > .row:first-child > ul:first-child > li > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.bottom > .qa > .row:first-child > ul:first-child > li > ul > li {
+  padding: 3px  0;
+}
+
+.bottom > .qa > .row:first-child > ul:first-child > li > ul > li > a {
+  transition: all .15s ease-out;
+  line-height: 12px;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #969696;
+}
+
+.bottom > .qa > .row:first-child > ul:first-child > li > ul > li > a:hover {
+  text-decoration: none;
+}
+
+.bottom > .qa > .row:first-child > .bm_right {
+  float: right;
+}
+
+.bottom > .qa > .row:first-child > .bm_right > ul > li {
+  text-align: right;
+}
+
+.bottom > .qa > .row:first-child > .bm_right > ul .tel {
+  color: #5079d9;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bottom > .qa > .row:first-child > .bm_right > ul .day {
+  color: #999;
+  margin-top: 15px;
+}
+
+.bottom > .qa > .row:first-child > .bm_right > ul .tel_ps {
+  font-size: 12px;
+  color: #999;
+}
+
+.bottom > .qa > .row:first-child > .bm_right > ul .help > a {
+  text-decoration: none;
+  width: 130px;
+  height: 28px;
+  border: 1px solid #d0d0d0;
+  color: #5079d9;
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  float: right;
+  text-align: center;
+  line-height: 28px;
+  background: #fcfcfc;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.bottom > .qa > .row:first-child > .bm_right > ul .help > a:hover {
+  background: #f5f5f5;
+}
+
+.bottom > .qa > .row:not(:first-child) {
+  font-size: 12px;
+  padding: 30px 0 60px;
+}
+
+.bottom > .qa > .row:not(:first-child) > p {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom > .qa > .row:not(:first-child) > .p1 {
+  color: #bdbdbd;
+  font-size: 100%;
+  height: 15px;
+  line-height: 15px;
+}
+
+.bottom > .qa > .row:not(:first-child) > .p2 {
+  color: #bdbdbd;
+  font-size: 100%;
+  height: 15px;
+  line-height: 15px;
+  margin-left: 3px;
+}
+
+.bottom > .qa > .row:not(:first-child) > ul {
+  margin-left: 10px;
+  float: left;
+}
+
+.bottom > .qa > .row:not(:first-child) > ul > li {
+  border-left: 1px solid #ccc;
+  padding: 0 10px;
+  float: left;
+}
+
+.bottom > .qa > .row:not(:first-child) > ul > li > a {
+  color: #ababab;
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.bottom > .qa > .row:not(:first-child) > ul > li > a:hover {
+  text-decoration: none;
+  color: #5079d9;
+}
+
+.bottom > .qa > .row:not(:first-child) h4 {
+  position: relative;
+  margin: 25px 0 0 0;
+  padding: 0;
+  font-size: 12px;
+  text-align: unset;
+}
+
+.bottom > .qa > .row:not(:first-child) h4 a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+
+.bottom > .qa > .row:not(:first-child) h4 a > span {
+  margin-right: 11px;
+}
+
+.bottom > .qa > .row:not(:first-child) h4 .lang {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 23px;
+}
+
+.bottom > .qa > .row:not(:first-child) h4 .lang > a {
+  height: 31px;
+  color: #45474b;
+  padding: 10px 20px 10px 44px;
+  display: block;
+}
+
+.bottom > .qa > .row:not(:first-child) h4 .lang > a::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent transparent #bdbdbd transparent;
+  position: absolute;
+  top: 8px;
+  right: 4px;
+}
+
+.bottom > .qa > .row:not(:first-child) h4 .lang > a::before {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+  content: "";
+  display: block;
+  width: 16px;
+  height: 15px;
+  background: url("https://static.smartisanos.cn/index/assets/images/flag.afd0e7c69a7b9639cbfe7dde4ec0f3b0.png") no-repeat 0 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  line-height: 1.2;
+  overflow: hidden;
+}
+
+html, body, ol, ul, div, a {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #ededed;
+  position: relative;
+  min-width: 1220px;
+}
+
+#shop-has {
+  display: none;
+  background-image: none !important;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  width: 380px;
+  background: white;
+}
+
+#shop-has > ul {
+  overflow: hidden;
+}
+
+#shop-has > ul > li {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  position: relative;
+}
+
+#shop-has > ul > li:hover {
+  background: #ededed;
+}
+
+#shop-has > ul > li .del {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+  background-image: url("https://static.smartisanos.cn/index/assets/images/delete-btn-icon@2x.dda1ea4c403f719dda058524ea48f445.png");
+}
+
+#shop-has > ul > li .del:hover {
+  background-position: 0 -30px;
+}
+
+#shop-has > ul > li .car-left {
+  float: left;
+}
+
+#shop-has > ul > li .car-left > img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 3px;
+  overflow: hidden;
+  border: 1px solid #f0f0f0;
+}
+
+#shop-has > ul > li .car-right {
+  padding-left: 30px;
+  float: left;
+  text-align: left;
+}
+
+#shop-has > ul > li .car-right > .shop-name {
+  color: #333;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#shop-has > ul > li .car-right > .color-rl {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #9d9d9d;
+}
+
+#shop-has > ul > li .car-right .price-num {
+  margin-top: 10px;
+}
+
+#shop-has > ul > li .car-right .price-num .num {
+  color: #cacaca;
+}
+
+#shop-has .sum {
+  padding: 20px;
+  overflow: hidden;
+  background: linear-gradient(#fafafa, #f5f5f5);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), 0 -3px 8px rgba(0, 0, 0, 0.04);
+  border-top: 1px solid #f0f0f0;
+  border-radius: 0 0 8px 8px;
+}
+
+#shop-has .sum .sum-left {
+  float: left;
+}
+
+#shop-has .sum .sum-right {
+  float: right;
+}
+
+#shop-has .sum .sum-right > a {
+  display: block;
+  height: 38px;
+  background: #688fe8;
+  background: linear-gradient(#688fe8, #5079e1);
+  border: 1px solid #5c81e3;
+  border-radius: 6px;
+  font-weight: 700;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 3px rgba(0, 0, 0, 0.2);
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.center {
+  padding-top: 90px;
+  padding-bottom: 364px;
+  width: 1220px;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0;
+}
+
+.swiper-wrapper {
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide > a > img {
+  width: 100%;
+  position: relative;
+  top: -28px;
+}
+
+.border {
+  border-radius: 20px;
+}
+
+.swiper-container {
+  margin-top: 0px;
+  width: 1220px;
+  height: 499px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-pagination-bullet {
+  width: 11px;
+  height: 11px;
+}
+
+.swiper-pagination-bullet-active {
+  background: white;
+  width: 11px;
+  height: 11px;
+}
+
+.center .con-swiper {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.row {
+  width: 1220px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.center .home-box, .center .floot-box {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  margin-top: 25px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  overflow: hidden;
+}
+
+.center .home-box > .con-a, .center .floot-box > .con-a {
+  border-right: 1px solid #eee;
+  float: left;
+  position: relative;
+}
+
+.center .home-box > .con-a > a, .center .floot-box > .con-a > a {
+  width: 305px;
+  height: 200px;
+  background-size: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.center .home-hot-shop > .title > .home-page {
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
+
+.center .home-hot-shop > .title > .home-page > a {
+  display: inline-block;
+  margin-left: -10px;
+  border: none;
+  width: 48px;
+  height: 48px;
+  text-align: left;
+  color: #474747;
+  background-color: inherit;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 100%;
+  background-image: url("http://static.smartisanos.cn/index/assets/images/hot-arrow-right@2x.e0d1a75c7532e97aa97bfbb91e21328e.png");
+}
+
+.center .home-hot-shop > .title > .home-page > .for-left {
+  transform: rotateY(180deg);
+}
+
+.center .home-hot-shop > .title > .home-page .a-disabled {
+  cursor: not-allowed;
+  background-image: url("https://static.smartisanos.cn/index/assets/images/hot-arrow-right-disabled.bee91011d435258528bf79aeefb09315.png");
+}
+
+.center .con-floor {
+  background: #ededed;
+}
+
+.center .home_floors > .title > .floors-page {
+  position: absolute;
+  height: 60px;
+  line-height: 60px;
+  right: 25px;
+  top: 0;
+}
+
+.center .home_floors > .title > .floors-page > a {
+  display: inline-block;
+  position: relative;
+  margin: 0 15px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+  transition: all .15s ease-out;
+  text-decoration: none;
+}
+
+.center .home_floors > .title > .floors-page .a_hover {
+  font-weight: 700;
+}
+
+.center .home_floors > .title > .floors-page > a:last-child {
+  margin-right: 0;
+}
+
+.center .home_floors > .con-ul {
+  width: 1220px;
+  position: static;
+  overflow: visible;
+}
+
+.center .home_floors > .con-ul > ul {
+  width: 1220px;
+}
+
+.center .home_floors > .con-ul > ul > li:first-child {
+  width: 610px;
+}
+
+.center .home_floors > .con-ul > ul > li:first-child > img {
+  width: 100%;
+  height: 100%;
+}
+
+.center .lt {
+  margin-bottom: 50px;
+}
+
+.center .lt > .title > .door {
+  position: absolute;
+  right: 14px;
+  top: 12px;
+}
+
+.center .lt > .title > .door > a {
+  margin-right: 0;
+  font-weight: 700;
+  padding: 0 15px;
+  line-height: 34px;
+  background: #fafafa;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  background-image: linear-gradient(180deg, #fff, #fafafa);
+  display: inline-block;
+  position: relative;
+  margin: 0 15px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+  transition: all .15s ease-out;
+  text-decoration: none;
+}
+
+.center .lt > .con-lt {
+  position: relative;
+  display: flex;
+}
+
+.center .lt > .con-lt > .text-image {
+  position: relative;
+  flex: 1;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.center .lt > .con-lt > .text-image > .cont {
+  margin: 30px;
+  padding-bottom: 30px;
+}
+
+.center .lt > .con-lt > .text-image > .cont > img {
+  border-radius: 4px;
+  width: 246px;
+  height: 138px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.center .lt > .con-lt > .text-image > .cont > h5 {
+  display: -webkit-box;
+  margin: 30px 0 12px;
+  color: #333;
+  overflow: hidden;
+  width: 100%;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 700;
+  -webkit-line-clamp: 1;
+}
+
+.center .lt > .con-lt > .text-image > .cont > p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-size: 12px;
+  color: #999;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.center .lt > .con-lt > .text-image > .cont > span {
+  display: inline-block;
+  position: absolute;
+  bottom: 30px;
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #5079d9;
+}
+
+.center .lt > .con-lt > .text-image > .cont > a {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #5079d9;
+  cursor: pointer;
+  transition: all .15s ease-out;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.center .yy > .title > .door {
+  position: absolute;
+  right: 14px;
+  top: 12px;
+}
+
+.center .yy > .title > .door > a {
+  margin-right: 0;
+  font-weight: 700;
+  padding: 0 15px;
+  line-height: 34px;
+  background: #fafafa;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  background-image: linear-gradient(180deg, #fff, #fafafa);
+  display: inline-block;
+  position: relative;
+  margin: 0 15px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+  transition: all .15s ease-out;
+  text-decoration: none;
+}
+
+.center .yy > ul > li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  border-left: 1px solid #f2f2f2;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-left: none;
+}
+
+.center .yy > ul > li {
+  border-left: 1px solid #f2f2f2;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  width: 25%;
+  height: 315px;
+  text-align: center;
+  padding: 50px 30px 30px;
+}
+
+.center .yy > ul > li > .content {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: opacity .2s ease-out .1s;
+}
+
+.center .yy > ul > li > .content > .app-image {
+  margin: 0 auto;
+  width: 96px;
+  height: 96px;
+  background-repeat: no-repeat;
+  background-size: auto 90px;
+  background-position: 2px 0;
+  background-image: url("https://static.smartisanos.cn/index/assets/images/app-icon-sprite.1220be4bfe4e02d3f616d62d1766ebb1.png");
+}
+
+.center .yy > ul > li > .content > .info {
+  z-index: 1;
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.center .yy > ul > li > .content > .info > h6 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.center .yy > ul > li > .content > .info > p {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.center .yy > ul > li > .content > .info > p > span {
+  display: block;
+  overflow: hidden;
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #999;
+}
+
+.center .yy > ul > li > .content > .logo {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  height: 16px;
+  text-align: center;
+}
+
+.center .yy > ul > li > .content > .logo > span {
+  display: inline-block;
+  position: relative;
+  margin: 0 5px;
+}
+
+.center .yy > ul > li > .ophide {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background: #fff;
+  transition: opacity 0.1s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.center .yy > ul > li > .ophide > .con-botton {
+  padding: 82px 0 15px;
+}
+
+.center .yy > ul > li > .ophide > .con-botton > a {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 210px;
+  height: 50px;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  white-space: nowrap;
+  color: #fff;
+  background-color: #6f97e5;
+  background-image: linear-gradient(#6f97e5, #527ed9);
+  box-shadow: inset 0 1px 2px #7ea1e8;
+  text-shadow: #4f70b3 0 -1px 0;
+  cursor: pointer;
+}
+
+.center .yy > ul > li > .ophide > .con-botton > a > span:first-child {
+  width: 20px;
+  background-size: 20px auto;
+}
+
+.center .yy > ul > li > .ophide > .con-botton > a > span::last-child {
+  font-size: 12px;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.center .yy > ul > li > .ophide > .jyb {
+  color: #5079d9;
+  cursor: pointer;
+  transition: all .15s ease-out;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.center .yy > ul > li > .ophide > .con-jyb {
+  color: #5079d9;
+  cursor: pointer;
+  transition: all .15s ease-out;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.center .yy > ul > li > .link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #5079d9;
+  cursor: pointer;
+  transition: all .15s ease-out;
+  text-decoration: none;
+}
+
+.center .yy > ul > li:hover > .content {
+  display: none;
+}
+
+.center .yy > ul > li:hover > .ophide {
+  display: block;
+}

@@ -1,0 +1,75 @@
+*{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+ul,li,ol{
+	list-style-type: none;
+}
+
+/* ie 6/7 */
+.clearfix{
+	*zoom : 1;
+	*height: 1px;
+}
+/* IE8+ */
+.clearfix:after{
+	content: "";
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+.nav2{
+	width: 900px;
+	border: 1px solid red;
+	
+	margin: 0 auto;
+}
+
+.nav2 > span{
+	display: inline-block;
+	float: left;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	padding: 10px 0;
+	border-right: 1px solid red;
+	cursor: pointer;
+}
+.nav2 > span.cur{
+	color: red;
+}
+.shoplist{
+	width: 900px;
+	display: block;
+	margin: 50px auto 0;
+
+}
+.shoplist > li{
+	width: 200px;
+	/*height: 200px;*/
+	border: 1px solid #d1d1d1;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.shoplist > li button{
+	font-size: 24px;
+	margin-top: 10px;
+	cursor: pointer;
+	border: 1px solid #000;
+}
+.shoplist > li img{
+	height: 150px;
+	display: inline-block;
+}
+.shoplist > li p{
+	width: 100%;
+	height: 20px;
+	margin-top: 5px;
+}
